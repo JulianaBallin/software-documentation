@@ -1,0 +1,156 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6E1C9150-DAA3-E9CE-16BF-7E06A29287B3" name="TB_PRODUTO">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 19:14:50 UTC</createdTime>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<engineerTo>
+<item key="03A85287-1F16-9581-27D1-7F6BF40C26B7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NomeProdut" id="6701B44A-EABF-857E-2AFF-5CB9FA50BFAA">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 19:15:15 UTC</createdTime>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<engineerTo>
+<item key="03A85287-1F16-9581-27D1-7F6BF40C26B7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70</dataTypeSize>
+<ownDataTypeParameters>70,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CodProdut" id="2BED5CB6-F378-92A9-9F42-7CBE7669F8C6">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 19:15:00 UTC</createdTime>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<engineerTo>
+<item key="03A85287-1F16-9581-27D1-7F6BF40C26B7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AbrevProdut" id="7FBA4E40-ABDD-B0B3-674D-966BB2155567">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 19:15:32 UTC</createdTime>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<engineerTo>
+<item key="03A85287-1F16-9581-27D1-7F6BF40C26B7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PrecoProdut" id="DF730386-57E3-8060-E8F5-F54FD4E2D254">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 19:15:48 UTC</createdTime>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<engineerTo>
+<item key="03A85287-1F16-9581-27D1-7F6BF40C26B7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="QtdMinProdut" id="4AFFA10C-1150-6886-C1FC-97003CCCBE26">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 19:16:03 UTC</createdTime>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<engineerTo>
+<item key="03A85287-1F16-9581-27D1-7F6BF40C26B7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PeriodPermanProdut" id="495CD101-B2DE-66C5-D785-0CDF6C30D067">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 19:16:32 UTC</createdTime>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<engineerTo>
+<item key="03A85287-1F16-9581-27D1-7F6BF40C26B7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CodCateg" id="7E49BC79-845C-E8DF-C13A-7A2BE8E8682E">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 20:07:10 UTC</createdTime>
+<generatorID>942578B5-CF47-0E43-1768-BF53C509E5B7</generatorID>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<engineerTo>
+<item key="03A85287-1F16-9581-27D1-7F6BF40C26B7" value="true"/>
+</engineerTo>
+<referedAttribute>A87224D1-181A-5A3A-74B7-CC1DD0D2BE0E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CodMarc" id="F020C81C-A398-C80C-1FBF-D5F089E9A5AC">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 20:07:23 UTC</createdTime>
+<generatorID>A0B3943D-27F6-7190-AAB1-8F6881FDBBCB</generatorID>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<engineerTo>
+<item key="03A85287-1F16-9581-27D1-7F6BF40C26B7" value="true"/>
+</engineerTo>
+<referedAttribute>23221CF6-742F-778B-072A-201708718E6F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdClassManu" id="481B97CE-F23D-FBFF-736C-8B80D0278AF6">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 20:07:28 UTC</createdTime>
+<generatorID>D09D55B1-0EF1-6B88-DFE3-B5D624535B94</generatorID>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<engineerTo>
+<item key="03A85287-1F16-9581-27D1-7F6BF40C26B7" value="true"/>
+</engineerTo>
+<referedAttribute>3C352B84-13EA-D91D-BDEC-D329452D9086</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9DC47CBC-9747-B2C4-0EAF-5C5DC5CA1E98" name="TB_PRODUTO PK">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 19:15:14 UTC</createdTime>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<engineerTo>
+<item key="03A85287-1F16-9581-27D1-7F6BF40C26B7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2BED5CB6-F378-92A9-9F42-7CBE7669F8C6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,179 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DEF9608D-7F61-6F02-3F0C-7978D9C2B42F" name="TB_PRODUTO">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 20:09:35 UTC</createdTime>
+<generatorID>6E1C9150-DAA3-E9CE-16BF-7E06A29287B3</generatorID>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NomeProdut" id="84130633-B919-8D54-BD4C-0A6CA82FD063">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 20:09:35 UTC</createdTime>
+<generatorID>6701B44A-EABF-857E-2AFF-5CB9FA50BFAA</generatorID>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70</dataTypeSize>
+<ownDataTypeParameters>70,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CodProdut" id="085716E0-A50D-C377-DBF4-2CF267B1577E">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 20:09:35 UTC</createdTime>
+<generatorID>2BED5CB6-F378-92A9-9F42-7CBE7669F8C6</generatorID>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AbrevProdut" id="C26176D0-3A8E-5C96-4BFC-74AB17FBE4DD">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 20:09:35 UTC</createdTime>
+<generatorID>7FBA4E40-ABDD-B0B3-674D-966BB2155567</generatorID>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PrecoProdut" id="06437F93-A274-3FBE-E3D2-A582B7A992F6">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 20:09:35 UTC</createdTime>
+<generatorID>DF730386-57E3-8060-E8F5-F54FD4E2D254</generatorID>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QtdMinProdut" id="F0693E3C-3588-C108-B6C7-D607829FFF11">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 20:09:35 UTC</createdTime>
+<generatorID>4AFFA10C-1150-6886-C1FC-97003CCCBE26</generatorID>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PeriodPermanProdut" id="A3178272-C7DB-016E-F073-0513BF25D699">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 20:09:35 UTC</createdTime>
+<generatorID>495CD101-B2DE-66C5-D785-0CDF6C30D067</generatorID>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TB_CATEGORIA_CodCateg" id="8ECCC78B-3F2A-1DD0-5377-8D4A9C84EF57">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 20:09:35 UTC</createdTime>
+<generatorID>7E49BC79-845C-E8DF-C13A-7A2BE8E8682E</generatorID>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D3C5F348-EE21-5D89-6BD8-8C253765F820" referredColumn="E97421E5-3C36-1C90-65EC-5CE122C51E0E"/>
+</associations>
+</Column>
+<Column name="TB_MARCA_CodMarc" id="8F4DE0AF-DD61-4228-46F1-C787AD48D3C0">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 20:09:35 UTC</createdTime>
+<generatorID>F020C81C-A398-C80C-1FBF-D5F089E9A5AC</generatorID>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5DF12CA8-1FCB-FCCA-280B-CB9B22746FE4" referredColumn="368F8145-4B61-1E62-5354-AF87B20A51FB"/>
+</associations>
+</Column>
+<Column name="TB_CLASSIFICACAOMANUSEIO_IdClassManu" id="DD8000E3-8141-4EA8-44C9-ADB98D8F9C5A">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 20:09:35 UTC</createdTime>
+<generatorID>481B97CE-F23D-FBFF-736C-8B80D0278AF6</generatorID>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A620FD93-5DFF-9754-B3F7-F71DF73CA07A" referredColumn="E68203F8-2741-9C95-A6A4-1BD0019493B0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D7581DBA-9097-6755-3D06-DA4FC912AD17" name="TB_PRODUTO_PK">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 20:09:35 UTC</createdTime>
+<generatorID>9DC47CBC-9747-B2C4-0EAF-5C5DC5CA1E98</generatorID>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="085716E0-A50D-C377-DBF4-2CF267B1577E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1AE2782B-24FE-3145-AD2D-96D8FC00CACB" name="TB_PRODUTO_TB_CATEGORIA_FK">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 20:09:35 UTC</createdTime>
+<generatorID>942578B5-CF47-0E43-1768-BF53C509E5B7</generatorID>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8ECCC78B-3F2A-1DD0-5377-8D4A9C84EF57"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9F00C5B4-3E0E-B73A-EA4B-1C9E2451AA19" name="TB_PRODUTO_TB_MARCA_FK">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 20:09:35 UTC</createdTime>
+<generatorID>A0B3943D-27F6-7190-AAB1-8F6881FDBBCB</generatorID>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8F4DE0AF-DD61-4228-46F1-C787AD48D3C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D62CB002-6839-99E0-70DF-4C994A70D449" name="TB_PRODUTO_TB_CLASSIFICACAOMANUSEIO_FK">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 20:09:35 UTC</createdTime>
+<generatorID>D09D55B1-0EF1-6B88-DFE3-B5D624535B94</generatorID>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD8000E3-8141-4EA8-44C9-ADB98D8F9C5A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

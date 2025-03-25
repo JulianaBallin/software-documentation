@@ -1,0 +1,159 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9AA87AB6-29DF-0FEE-9094-FACE0067D50C" name="TB_FORNECEDOR">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 20:09:35 UTC</createdTime>
+<generatorID>156B73C8-0278-12DD-4C2C-BBD937EA06E2</generatorID>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CnpjForn" id="425D4B10-3EFB-A192-9E58-9469B427C4DA">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 20:09:35 UTC</createdTime>
+<generatorID>B839E1A6-13C3-B262-A567-2194C3D0639C</generatorID>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NomeForn" id="2FBCEC07-D81B-31B9-180E-0CA5509AB9AD">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 20:09:35 UTC</createdTime>
+<generatorID>54F2A894-5AC9-ADBD-EE25-EB48F86A0AB8</generatorID>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AbrevForn" id="2AD3CDB7-3C46-DD36-CC5E-75F0587E8CEE">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 20:09:35 UTC</createdTime>
+<generatorID>CE438CA7-7FDB-F801-983A-4FF2C67C2C33</generatorID>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EmailForn" id="11F58CFC-7DEF-DCA9-6B67-B40B53FCE9D4">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 20:09:35 UTC</createdTime>
+<generatorID>E7FDFE38-0B26-7D61-2D19-4FC6E6406FF4</generatorID>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>320</dataTypeSize>
+<ownDataTypeParameters>320,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TelForn" id="001B1A7D-83E5-4DBA-A5F8-C4CFDE2ED1E8">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 20:09:35 UTC</createdTime>
+<generatorID>AAC4A1FF-9CF2-E404-8546-8525EBC9501F</generatorID>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CepForn" id="811102BF-D216-7649-3D83-E4674CF51CAA">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 20:09:35 UTC</createdTime>
+<generatorID>FACF196A-C519-169F-711B-2CEA9C9F8854</generatorID>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PaisForn" id="8BD08117-01C1-BBF6-AC91-77FF12DF7CF1">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 20:09:35 UTC</createdTime>
+<generatorID>9F698F11-B569-57F8-7D71-84794C4922BF</generatorID>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CidadForn" id="122C9FB6-EF1A-0F20-1BCF-8B83740E2F18">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 20:09:35 UTC</createdTime>
+<generatorID>757C5F40-C446-EFE7-D959-02044C345378</generatorID>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BairroForn" id="AB464E4E-9125-14C0-4707-71D8F64BA6D6">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 20:09:35 UTC</createdTime>
+<generatorID>60E35E0B-06DE-9CB1-D64F-51715AEF8453</generatorID>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RuaForn" id="36D1324C-3771-BFBB-C562-8C440FCDAB1F">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 20:09:35 UTC</createdTime>
+<generatorID>24349846-E1C3-49C7-635A-65D16232A32A</generatorID>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NumForn" id="BCAD122C-BC09-0A99-4DB0-9DAC8D596C4B">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 20:09:35 UTC</createdTime>
+<generatorID>E2544BCD-F708-4C1C-94B3-96AD6942EB2A</generatorID>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AA284E1C-495E-69FB-306D-E59DC0D54783" name="TB_FORNECEDOR_PK">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 20:09:35 UTC</createdTime>
+<generatorID>DDE2E231-B8CA-AF21-18D1-9E10FD1DA5BA</generatorID>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="425D4B10-3EFB-A192-9E58-9469B427C4DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="49BFBCDC-598B-D593-3F94-0E79A51A9722" name="VendaProdutos">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 20:09:35 UTC</createdTime>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TB_PRODUTO_CodProdut" id="29E19A32-96D9-B7D5-41A8-BCAC6F0853B4">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 20:09:35 UTC</createdTime>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6B0B6F73-FD9D-C4F5-E68C-696AAA9A474C" referredColumn="085716E0-A50D-C377-DBF4-2CF267B1577E"/>
+</associations>
+</Column>
+<Column name="TB_VENDA_CodVenda" id="2AE11BED-0518-EF2F-8048-1C9B2E5241C7">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 20:09:35 UTC</createdTime>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="03DC2F64-A0FE-B405-76DB-674E992BB8E2" referredColumn="5C78D862-20FB-5678-5C1C-7079860767BD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="44E0DCC5-9ABC-F174-2075-C98B8F8921EF" name="VendaProdutos_PK">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 20:09:35 UTC</createdTime>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="29E19A32-96D9-B7D5-41A8-BCAC6F0853B4"/>
+<colUsage columnID="2AE11BED-0518-EF2F-8048-1C9B2E5241C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="431F17BA-F03B-0353-3E8E-6FFD95B8C673" name="VendaProdutos_TB_PRODUTO_FK">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 20:09:35 UTC</createdTime>
+<generatorID>671A7A7F-4FB5-5004-6D8D-6CA7BC1169C8</generatorID>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="29E19A32-96D9-B7D5-41A8-BCAC6F0853B4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C1B5E7B5-C98C-89FA-A2D8-A86C137718EB" name="VendaProdutos_TB_VENDA_FK">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 20:09:35 UTC</createdTime>
+<generatorID>671A7A7F-4FB5-5004-6D8D-6CA7BC1169C8</generatorID>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2AE11BED-0518-EF2F-8048-1C9B2E5241C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

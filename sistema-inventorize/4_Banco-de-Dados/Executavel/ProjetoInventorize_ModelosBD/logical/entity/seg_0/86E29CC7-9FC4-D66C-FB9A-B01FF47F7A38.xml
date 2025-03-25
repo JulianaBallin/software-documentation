@@ -1,0 +1,197 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="86E29CC7-9FC4-D66C-FB9A-B01FF47F7A38" name="TB_CLIENTE ">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 19:17:10 UTC</createdTime>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<engineerTo>
+<item key="03A85287-1F16-9581-27D1-7F6BF40C26B7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CpfCli " id="B015FD2A-6990-C489-6250-3D51007B57DF">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 19:17:18 UTC</createdTime>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<engineerTo>
+<item key="03A85287-1F16-9581-27D1-7F6BF40C26B7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NomeCli" id="B1CAFE31-C5DA-F2DC-8112-F1BC9A060862">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 19:17:35 UTC</createdTime>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<engineerTo>
+<item key="03A85287-1F16-9581-27D1-7F6BF40C26B7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>120</dataTypeSize>
+<ownDataTypeParameters>120,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GeneroCli" id="6FDC7925-C705-C31E-A52D-42539E908A6F">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 19:17:53 UTC</createdTime>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<engineerTo>
+<item key="03A85287-1F16-9581-27D1-7F6BF40C26B7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EmailCli" id="71241D79-BEDA-F9C9-036A-90FA208AA461">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 19:18:13 UTC</createdTime>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<engineerTo>
+<item key="03A85287-1F16-9581-27D1-7F6BF40C26B7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>320</dataTypeSize>
+<ownDataTypeParameters>320,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TelCli" id="5B15AB07-41BE-116B-24CD-4161E617658A">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 19:18:26 UTC</createdTime>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<engineerTo>
+<item key="03A85287-1F16-9581-27D1-7F6BF40C26B7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CepCli" id="AE342492-0B67-1D31-378B-84C03043F5D4">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 19:18:37 UTC</createdTime>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<engineerTo>
+<item key="03A85287-1F16-9581-27D1-7F6BF40C26B7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PaisCli" id="35B16F72-3DE6-920E-8040-B8EFA4FF62B9">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 19:18:49 UTC</createdTime>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<engineerTo>
+<item key="03A85287-1F16-9581-27D1-7F6BF40C26B7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CidadCli" id="2A6858DD-46E3-3582-9591-AF1F5E32C306">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 19:19:02 UTC</createdTime>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<engineerTo>
+<item key="03A85287-1F16-9581-27D1-7F6BF40C26B7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BairroCli" id="AE85F7AE-E6CA-D7CB-9031-A02BD596ED39">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 19:19:13 UTC</createdTime>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<engineerTo>
+<item key="03A85287-1F16-9581-27D1-7F6BF40C26B7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RuaCli" id="24A166F0-2D30-C058-1E4A-8000E0E5082F">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 19:19:26 UTC</createdTime>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<engineerTo>
+<item key="03A85287-1F16-9581-27D1-7F6BF40C26B7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NumCli" id="A422C078-9570-859E-91BD-B3F9FC1506BE">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 19:19:39 UTC</createdTime>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<engineerTo>
+<item key="03A85287-1F16-9581-27D1-7F6BF40C26B7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DataHoraCriCli" id="A7291880-645B-F372-8427-1E50504783A9">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 19:19:51 UTC</createdTime>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<engineerTo>
+<item key="03A85287-1F16-9581-27D1-7F6BF40C26B7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1758D972-8A2B-55AE-EAF4-07DDE6135375" name="TB_CLIENTE PK">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 19:17:34 UTC</createdTime>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<engineerTo>
+<item key="03A85287-1F16-9581-27D1-7F6BF40C26B7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B015FD2A-6990-C489-6250-3D51007B57DF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

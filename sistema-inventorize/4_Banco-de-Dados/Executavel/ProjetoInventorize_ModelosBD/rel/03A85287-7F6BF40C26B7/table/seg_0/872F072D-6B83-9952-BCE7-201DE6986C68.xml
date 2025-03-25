@@ -1,0 +1,201 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="872F072D-6B83-9952-BCE7-201DE6986C68" name="TB_ENTRADA">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 20:09:35 UTC</createdTime>
+<generatorID>98540B1A-44C1-0A16-91D8-F842DE4C84D5</generatorID>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NumNFEnt" id="7CF63A41-10D9-ACC7-5B29-D911CFC1E951">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 20:09:35 UTC</createdTime>
+<generatorID>59123549-A154-72B2-2D8C-B46BB6E6EC07</generatorID>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TipoNFEnt" id="012FA359-6F77-35D3-4E44-DE5B28E13185">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 20:09:35 UTC</createdTime>
+<generatorID>5138D229-FCBF-2D9A-FA86-E6928333F92B</generatorID>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LoteEnt" id="62EB85F0-745D-21D7-5CEB-BB699064FE8E">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 20:09:35 UTC</createdTime>
+<generatorID>F7C13CCA-2073-D113-A233-F9BC5247F878</generatorID>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QtdeProdutEnt" id="4EAE879F-B70C-8C9F-6919-914327ACD23A">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 20:09:35 UTC</createdTime>
+<generatorID>668904E1-BA34-539F-4713-D76242CD206B</generatorID>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ValorProdutEnt" id="9E3D0E5D-E6F9-B4D8-5794-4AF4CB885422">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 20:09:35 UTC</createdTime>
+<generatorID>CE46DF64-5ACE-54AA-9F1D-E8D7A3E95118</generatorID>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DataEnt" id="9784B55D-BBDB-D9DD-EB35-78146EF7ED04">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 20:09:35 UTC</createdTime>
+<generatorID>8B7FA95B-6471-8FA6-FAA7-6317B99D5135</generatorID>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HoraEnt" id="5C39C74A-C32C-7ACB-EC27-0C3C163D5066">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 20:09:35 UTC</createdTime>
+<generatorID>8DFA4B9B-A93C-E381-4825-E98440F3096F</generatorID>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ValLoteEnt" id="54A2E1AE-4952-90FB-13CA-ADAAB5054052">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 20:09:35 UTC</createdTime>
+<generatorID>0A4AB635-5745-D8FB-FB67-0535D929437B</generatorID>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TB_FORNECEDOR_CnpjForn" id="23273FF1-423D-3E2E-07F9-06DA7A67DCAE">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 20:09:35 UTC</createdTime>
+<generatorID>C59986EF-F6C5-9AFE-954B-225090F3468A</generatorID>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C44C5BDA-8213-E1BE-1F14-A411EA73FB7D" referredColumn="425D4B10-3EFB-A192-9E58-9469B427C4DA"/>
+</associations>
+</Column>
+<Column name="TB_PRODUTO_CodProdut" id="C8A79DAB-4762-3153-AEB0-A0DDDC4D7AED">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 20:09:35 UTC</createdTime>
+<generatorID>3E2A9C59-B578-6F2E-083C-3A218288485C</generatorID>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="28A1BCAC-72C4-CEC8-7D07-737B328C8FD4" referredColumn="085716E0-A50D-C377-DBF4-2CF267B1577E"/>
+</associations>
+</Column>
+<Column name="TB_PEDIDO_CodPedid" id="E3A812F1-E10F-E95A-D3B4-7F853178EB67">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 20:18:21 UTC</createdTime>
+<generatorID>1C0DB73A-441E-9162-E45F-2A61AC8E9D66</generatorID>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2A4C3FB3-586D-8205-1835-801B210309A3" referredColumn="E542E8D0-AAD6-67FB-CC64-E5DEECE6A6D7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EAC396EB-8805-272A-9D15-42098A4C87DE" name="TB_ENTRADA_PK">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 20:09:35 UTC</createdTime>
+<generatorID>57FEAE1B-6270-0B24-DF56-8FECB2F30B83</generatorID>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7CF63A41-10D9-ACC7-5B29-D911CFC1E951"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="727C3A91-C1AC-6E00-8960-5C30A4EBA604" name="TB_ENTRADA_TB_FORNECEDOR_FK">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 20:09:35 UTC</createdTime>
+<generatorID>CB01DE19-AFB7-EB8B-7FFE-B9BA48B5DEDF</generatorID>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="23273FF1-423D-3E2E-07F9-06DA7A67DCAE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A31C2FAD-58EA-F686-45FC-A2099BBFF522" name="TB_ENTRADA_TB_PRODUTO_FK">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 20:09:35 UTC</createdTime>
+<generatorID>498F82C4-1780-705C-C476-17AB7631AC8E</generatorID>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C8A79DAB-4762-3153-AEB0-A0DDDC4D7AED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5BD38F8A-0348-8BA6-20F5-D66F03A5FFAB" name="TB_ENTRADA_TB_PEDIDO_FK">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 20:18:21 UTC</createdTime>
+<generatorID>9DC581FF-F29C-AEB2-0C05-DC19936468FD</generatorID>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E3A812F1-E10F-E95A-D3B4-7F853178EB67"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,177 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="156B73C8-0278-12DD-4C2C-BBD937EA06E2" name="TB_FORNECEDOR">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 19:35:55 UTC</createdTime>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<engineerTo>
+<item key="03A85287-1F16-9581-27D1-7F6BF40C26B7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CnpjForn" id="B839E1A6-13C3-B262-A567-2194C3D0639C">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 19:36:02 UTC</createdTime>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<engineerTo>
+<item key="03A85287-1F16-9581-27D1-7F6BF40C26B7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NomeForn" id="54F2A894-5AC9-ADBD-EE25-EB48F86A0AB8">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 19:36:17 UTC</createdTime>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<engineerTo>
+<item key="03A85287-1F16-9581-27D1-7F6BF40C26B7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AbrevForn" id="CE438CA7-7FDB-F801-983A-4FF2C67C2C33">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 19:36:41 UTC</createdTime>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<engineerTo>
+<item key="03A85287-1F16-9581-27D1-7F6BF40C26B7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EmailForn" id="E7FDFE38-0B26-7D61-2D19-4FC6E6406FF4">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 19:37:05 UTC</createdTime>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<engineerTo>
+<item key="03A85287-1F16-9581-27D1-7F6BF40C26B7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>320</dataTypeSize>
+<ownDataTypeParameters>320,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TelForn" id="AAC4A1FF-9CF2-E404-8546-8525EBC9501F">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 19:37:24 UTC</createdTime>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<engineerTo>
+<item key="03A85287-1F16-9581-27D1-7F6BF40C26B7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CepForn" id="FACF196A-C519-169F-711B-2CEA9C9F8854">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 19:37:35 UTC</createdTime>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<engineerTo>
+<item key="03A85287-1F16-9581-27D1-7F6BF40C26B7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PaisForn" id="9F698F11-B569-57F8-7D71-84794C4922BF">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 19:37:46 UTC</createdTime>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<engineerTo>
+<item key="03A85287-1F16-9581-27D1-7F6BF40C26B7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CidadForn" id="757C5F40-C446-EFE7-D959-02044C345378">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 19:37:59 UTC</createdTime>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<engineerTo>
+<item key="03A85287-1F16-9581-27D1-7F6BF40C26B7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BairroForn" id="60E35E0B-06DE-9CB1-D64F-51715AEF8453">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 19:38:11 UTC</createdTime>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<engineerTo>
+<item key="03A85287-1F16-9581-27D1-7F6BF40C26B7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RuaForn" id="24349846-E1C3-49C7-635A-65D16232A32A">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 19:38:23 UTC</createdTime>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<engineerTo>
+<item key="03A85287-1F16-9581-27D1-7F6BF40C26B7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NumForn" id="E2544BCD-F708-4C1C-94B3-96AD6942EB2A">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 19:38:34 UTC</createdTime>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<engineerTo>
+<item key="03A85287-1F16-9581-27D1-7F6BF40C26B7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DDE2E231-B8CA-AF21-18D1-9E10FD1DA5BA" name="TB_FORNECEDOR PK">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 19:36:16 UTC</createdTime>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<engineerTo>
+<item key="03A85287-1F16-9581-27D1-7F6BF40C26B7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B839E1A6-13C3-B262-A567-2194C3D0639C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

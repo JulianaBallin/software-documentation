@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AD112A43-F625-BC91-AE08-A481E750C5A2" name="TB USUARIO">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 19:08:36 UTC</createdTime>
+<generatorID>4133E085-6877-0C59-561B-E4AFE59322EB</generatorID>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<engineerTo>
+<item key="03A85287-1F16-9581-27D1-7F6BF40C26B7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CpfUser" id="45190DD0-19BA-F1F2-A0BB-D071D1C413BD">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 19:08:36 UTC</createdTime>
+<generatorID>E555C78F-DBBC-3AFB-7A8F-A5E13EEFEC32</generatorID>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<engineerTo>
+<item key="03A85287-1F16-9581-27D1-7F6BF40C26B7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NomeUser" id="9E01B867-EC13-4EAF-8A65-CE047A5D763E">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 19:08:36 UTC</createdTime>
+<generatorID>038B396B-F492-AF85-CAA1-578E80E78F59</generatorID>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<engineerTo>
+<item key="03A85287-1F16-9581-27D1-7F6BF40C26B7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>120</dataTypeSize>
+<ownDataTypeParameters>120,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EmailUser" id="A4CDAB31-C47D-B977-C91A-E1692643A912">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 19:08:36 UTC</createdTime>
+<generatorID>E7E19FF9-2009-EE01-7C04-F3B3F6EE1B1C</generatorID>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<engineerTo>
+<item key="03A85287-1F16-9581-27D1-7F6BF40C26B7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>320</dataTypeSize>
+<ownDataTypeParameters>320,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TelUser" id="FEC38636-543B-C8A5-9519-E797A9247EBB">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 19:08:57 UTC</createdTime>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<engineerTo>
+<item key="03A85287-1F16-9581-27D1-7F6BF40C26B7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UsernameUser" id="372ED1D8-6D89-101C-2222-B3B9EC42CEA0">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 19:09:19 UTC</createdTime>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<engineerTo>
+<item key="03A85287-1F16-9581-27D1-7F6BF40C26B7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SenhaUser" id="96104663-4E27-2A05-B305-D7ABCFE2D150">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 19:09:31 UTC</createdTime>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<engineerTo>
+<item key="03A85287-1F16-9581-27D1-7F6BF40C26B7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DataHoraCriUser" id="A2C02639-AE75-04A1-2A48-564EC1571B0D">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 19:09:45 UTC</createdTime>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<engineerTo>
+<item key="03A85287-1F16-9581-27D1-7F6BF40C26B7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9745A28C-66F8-70A4-0033-8AC189AABADF" name="TB USUARIO PK">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 19:08:36 UTC</createdTime>
+<generatorID>E2E9B556-017F-680B-FA82-EF2B3670FAC5</generatorID>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<engineerTo>
+<item key="03A85287-1F16-9581-27D1-7F6BF40C26B7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>45190DD0-19BA-F1F2-A0BB-D071D1C413BD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="07F6B102-8B7A-92A0-BA97-706CE5D1FB0E" containerWithKeyObject="9878DF9F-47E8-4CF3-0D48-271AF923681B" localFKIndex="AFFBFEAD-FBF7-0DF8-518E-6EE9B910BE78" name="TB_PEDIDO_TB_FORNECEDOR_FK">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 20:09:35 UTC</createdTime>
+<generatorID>53807764-28BE-AE39-A737-EDDBFE9C9A1F</generatorID>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<referredTableLongName>TB_FORNECEDOR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9AA87AB6-29DF-0FEE-9094-FACE0067D50C</referredTableID>
+<keyObject>AA284E1C-495E-69FB-306D-E59DC0D54783</keyObject>
+<referredKeyID>AA284E1C-495E-69FB-306D-E59DC0D54783</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CnpjForn</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

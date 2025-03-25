@@ -1,0 +1,150 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9878DF9F-47E8-4CF3-0D48-271AF923681B" name="TB_PEDIDO">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 20:09:35 UTC</createdTime>
+<generatorID>DDEF24CF-E6CA-0C5F-0056-20D9C6F14B8F</generatorID>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CodPedid" id="E542E8D0-AAD6-67FB-CC64-E5DEECE6A6D7">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 20:09:35 UTC</createdTime>
+<generatorID>9A197096-3FF5-EB8A-6BAA-639F32921576</generatorID>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QtdePedid" id="3C009A47-DA3F-0388-5086-254D0837A366">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 20:09:35 UTC</createdTime>
+<generatorID>DF3ED9E0-6AF5-3C1A-F846-6EB106ACD4EF</generatorID>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DataPedid" id="90E6A6EB-427A-D81D-0F5A-1ED6811D2861">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 20:09:35 UTC</createdTime>
+<generatorID>F957977E-C06F-E2C5-2AB6-2A34833124AD</generatorID>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PrazoPedid" id="3FDE8CEA-ACD7-21BB-D96D-651C046A8D87">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 20:09:35 UTC</createdTime>
+<generatorID>12EF9036-E7A7-E624-9639-E313599461BB</generatorID>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="StatusPedid" id="A1B7FBB4-EEDE-7627-704A-8108527AAA12">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 20:09:35 UTC</createdTime>
+<generatorID>4FAA9221-AEF6-F2C9-DD01-FAA76FC6F87A</generatorID>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TB_FORNECEDOR_CnpjForn" id="9221BEF2-EACF-7130-8175-008DD8A01517">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 20:09:35 UTC</createdTime>
+<generatorID>FA97E440-AB5F-764C-AD10-3A69CBEF56CF</generatorID>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="07F6B102-8B7A-92A0-BA97-706CE5D1FB0E" referredColumn="425D4B10-3EFB-A192-9E58-9469B427C4DA"/>
+</associations>
+</Column>
+<Column name="TB_PRODUTO_CodProdut" id="BD3D661D-288C-2988-08E6-50B814B17BCA">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 20:09:35 UTC</createdTime>
+<generatorID>C9AC18B6-066A-A14D-1609-F3CECDA2C2CD</generatorID>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AD97B0D2-661A-05AB-4385-1E273DC5D5C3" referredColumn="085716E0-A50D-C377-DBF4-2CF267B1577E"/>
+</associations>
+</Column>
+<Column name="NumNFEnt" id="77420225-58B8-D302-6F35-02FA873A552C">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 20:17:32 UTC</createdTime>
+<generatorID>7029F3B2-B95A-A004-5376-60877E10790A</generatorID>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0339D8E6-628D-F017-5F8C-07A37F2C6F1D" name="TB_PEDIDO_PK">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 20:09:35 UTC</createdTime>
+<generatorID>6ABA6E91-988D-37CE-7D70-365A13F748C8</generatorID>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E542E8D0-AAD6-67FB-CC64-E5DEECE6A6D7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AFFBFEAD-FBF7-0DF8-518E-6EE9B910BE78" name="TB_PEDIDO_TB_FORNECEDOR_FK">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 20:09:35 UTC</createdTime>
+<generatorID>53807764-28BE-AE39-A737-EDDBFE9C9A1F</generatorID>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9221BEF2-EACF-7130-8175-008DD8A01517"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0547191C-A195-5523-F8AA-38C0B57D17F5" name="TB_PEDIDO_TB_PRODUTO_FK">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 20:09:35 UTC</createdTime>
+<generatorID>CA1D4210-EF73-E2BD-B746-FF046946BE83</generatorID>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD3D661D-288C-2988-08E6-50B814B17BCA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

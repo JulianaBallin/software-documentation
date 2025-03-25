@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="03DC2F64-A0FE-B405-76DB-674E992BB8E2" containerWithKeyObject="49BFBCDC-598B-D593-3F94-0E79A51A9722" localFKIndex="C1B5E7B5-C98C-89FA-A2D8-A86C137718EB" name="VendaProdutos_TB_VENDA_FK">
+<createdBy>jubsb</createdBy>
+<createdTime>2024-10-26 20:09:35 UTC</createdTime>
+<generatorID>671A7A7F-4FB5-5004-6D8D-6CA7BC1169C8</generatorID>
+<ownerDesignName>ProjetoInventorize_ModelosBD</ownerDesignName>
+<referredTableLongName>TB_VENDA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>11670D27-F189-57D1-9810-7E33F0FDE917</referredTableID>
+<keyObject>0CFE78BD-96A8-A5BC-F7B2-53664869A56F</keyObject>
+<referredKeyID>0CFE78BD-96A8-A5BC-F7B2-53664869A56F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CodVenda</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
